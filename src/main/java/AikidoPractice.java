@@ -23,7 +23,7 @@ public class AikidoPractice {
     }
 
     public boolean eligibleForGraduation() {
-        return totalDays >= 180 || totalHours >= 100;
+        return totalDays >= (365/2) || totalHours >= 100;
     }
 
     public int getTotalHours() {

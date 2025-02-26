@@ -6,7 +6,7 @@ public class AikidoPractice {
     private int totalHours;
     private int totalDays;
     private Date startDate;
-    private boolean running;
+    private boolean running = true;
 
 
     public AikidoPractice() {

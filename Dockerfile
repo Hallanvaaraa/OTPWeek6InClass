@@ -4,4 +4,4 @@ WORKDIR /app
 COPY pom.xml /app/
 COPY . /app/
 RUN mvn package
-ENTRYPOINT ["java", "-jar", "AikidoPractice.jar"]
+CMD ["java", "-jar", "target/aikidoTesti.jar"]

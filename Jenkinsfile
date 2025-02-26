@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Hallanvaaraa/OTPWeek6InClass.git'
+                git branch: 'main', url: 'https://github.com/Hallanvaaraa/OTPWeek6InClass.git'
             }
         }
         stage('Build') {
